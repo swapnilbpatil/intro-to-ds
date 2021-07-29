@@ -26,6 +26,7 @@ rf = RandomForestClassifier()
 # Train the model
 rf.fit(X_train,y_train)
 
+
 # Predict the class on the test data
 y_pred = rf.predict(X_test)
 
